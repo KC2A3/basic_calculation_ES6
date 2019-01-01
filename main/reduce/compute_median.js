@@ -11,7 +11,7 @@ function compute_median(collection) {
   }
   return mid;
 }
-var compare = function(x, y) {
+let compare = function(x, y) {
   if (x < y) {
     return -1;
   } else if (x > y) {

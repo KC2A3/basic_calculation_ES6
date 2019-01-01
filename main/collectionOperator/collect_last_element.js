@@ -1,7 +1,6 @@
 'use strict';
 
 function collect_last_element(collection) {
-  var last = collection.pop();
-  return last
+  return collection.pop();
 }
 module.exports = collect_last_element;

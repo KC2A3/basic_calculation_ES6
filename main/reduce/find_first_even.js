@@ -1,10 +1,6 @@
 'use strict';
 
 function find_first_even(collection) {
-  let i = 0;
-  while (collection[i] % 2 != 0) {
-    i++;
-  }
-  return collection[i];
+  return collection.find((element) => element % 2 === 0);
 }
 module.exports = find_first_even;

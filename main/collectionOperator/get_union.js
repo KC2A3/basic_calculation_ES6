@@ -5,11 +5,11 @@ function get_union(collection_a, collection_b) {
 }
 
 function arrayRemoveRepeat(array) {
-  var result = [];
-  for (var i = 0; i < array.length; i++) {
-    var flag = true;
-    var temp = array[i];
-    for (var j = 0; j < result.length; j++) {
+  let result = [];
+  for (let i = 0; i < array.length; i++) {
+    let flag = true;
+    let temp = array[i];
+    for (let j = 0; j < result.length; j++) {
       if (temp === result[j]) {
         flag = false;
         break;

@@ -2,7 +2,7 @@
 var single_element = function(collection) {
   let arry = [];
   let result = [];
-  for (i = 0; i < collection.length; i++) {
+  for (let i = 0; i < collection.length; i++) {
     if (collection.indexOf(collection[i]) % 2 != 0) {
       arry.push(collection[i]);
     }

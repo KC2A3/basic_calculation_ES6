@@ -1,9 +1,5 @@
 'use strict';
 var map_to_three_multiples = function(collections) {
-  let result = [];
-  for (let element of collections) {
-    result.push(element * 3);
-  }
-  return result;
+  return collection.map((element) => element * 3);
 };
 module.exports = map_to_three_multiples;

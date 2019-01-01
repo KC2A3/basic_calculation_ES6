@@ -1,7 +1,7 @@
 'use strict';
 
 function get_letter_interval(number_a, number_b) {
-  var alphabet = ['a', 'b', 'c', 'd', 'e']
+  let alphabet = ['a', 'b', 'c', 'd', 'e']
   let x = number_a;
   let y = number_b;
   let array = [];
@@ -14,7 +14,7 @@ function get_letter_interval(number_a, number_b) {
       array.push(alphabet[i]);
     }
   } else if (x === y) {
-    array.push(alphabet[x-1]);
+    array.push(alphabet[x - 1]);
   }
   return array;
 }

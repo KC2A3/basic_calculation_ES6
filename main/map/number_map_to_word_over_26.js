@@ -6,7 +6,7 @@ var number_map_to_word_over_26 = function(collection) {
     if (num < 27) {
       return letter[num - 1];
     } else {
-      let tenDigits = letter[parseInt(num / 26-1)];
+      let tenDigits = letter[parseInt(num / 26 - 1)];
       let digits = letter[(num - 1) % 26];
       return tenDigits + digits;
     }
